@@ -27,6 +27,26 @@ let check=()=> {
         declare();
         return
     }
+    if (text[0].innerHTML===text[3].innerHTML&&text[3].innerHTML===text[6].innerHTML&& text[6].innerHTML!=="") {
+        declare();
+        return
+    }
+    if (text[1].innerHTML===text[4].innerHTML&&text[4].innerHTML===text[7].innerHTML&& text[7].innerHTML!=="") {
+        declare();
+        return
+    }
+    if (text[2].innerHTML===text[5].innerHTML&&text[5].innerHTML===text[8].innerHTML&& text[8].innerHTML!=="") {
+        declare();
+        return
+    }
+    if (text[0].innerHTML===text[4].innerHTML&&text[4].innerHTML===text[8].innerHTML&& text[8].innerHTML!=="") {
+        declare();
+        return
+    }
+    if (text[2].innerHTML===text[4].innerHTML&&text[4].innerHTML===text[8].innerHTML&& text[8].innerHTML!=="") {
+        declare();
+        return
+    }
 }
 //declares victory 
 function declare() {
