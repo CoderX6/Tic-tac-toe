@@ -1,0 +1,73 @@
+body{
+    background: rgb(86, 175, 106);
+    margin: 0;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color:aliceblue;
+}
+.row{
+    display: flex;
+}
+.design-1{
+    border-bottom: 2px solid black;
+}
+.design-2{
+    border-bottom: 2px solid black;
+}
+.box-mid{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.container{
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 9px;
+    background-color: aliceblue;
+}
+
+.mark{
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 80px;
+}
+/* nav  */
+nav{
+    height: 60px;
+    background:crimson ;
+}
+.title{
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+/* score board  */
+.score-board{
+    background-color: aqua;
+    padding: 10px;
+    margin-top: 10px;
+}
+.battle{
+    text-align: center;    
+    font-size: 30px;
+}
+.reset{
+    background-color:crimson;
+    color: aliceblue;
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 15px;
+    margin: auto;
+}
+.reset:hover{
+    background: #000;
+    color: crimson;
+    box-shadow: 4px 8px 12px 6px crimson;
+}
+#winner{
+    text-align: center;
+    font-size: 29px;
+    margin-top: 10px;
+}

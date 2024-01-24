@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tac-toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav>
+       <div class="title">Tic-Tac-Toe</div>
+    </nav>
+    <!-- game board -->
+    <div class="container" id="main">
+        <div class="row design-1">
+            <div class="box " id="box1"></div>
+            <div class="box box-mid " id="box2"></div>
+             <div class="box" id="box3"></div>
+        </div>
+        <div class="row design-2">
+            <div class="box " id="box4"></div>
+            <div class="box box-mid" id="box5"></div>
+            <div class="box" id="box6"></div>
+        </div>
+        <div class="row design-3">
+            <div class="box" id="box7"></div>
+            <div class="box box-mid" id="box8"></div>
+            <div class="box" id="box9"></div>
+        </div>
+    </div>
+    <!-- score board -->
+    <div class="score-board">
+        <p class="battle" id="players">Player1 X Player2</p>
+
+        <div class="reset" id="btn-reset">RESET</div>
+        <div id="winner" ></div>
+    </div>
+    <!-- javascript file -->
+    <script src="script.js"></script>
+</body>
+</html>
+
